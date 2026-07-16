@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Furina Bot — Legal</title>
+<style>
+:root{
+  --bg:#0f1220;--card:#171b2e;--text:#eef1ff;--muted:#aab2d5;
+  --accent:#7c8cff;--accent2:#8fd3ff;--border:#2a3154;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  background:linear-gradient(180deg,#0d1020 0%,#12162a 100%);
+  color:var(--text);line-height:1.7;
+}
+.container{max-width:920px;margin:auto;padding:32px 20px 64px}
+nav{
+  display:flex;gap:14px;align-items:center;justify-content:space-between;
+  padding:14px 0 28px;flex-wrap:wrap
+}
+.brand{font-weight:800;font-size:1.1rem}
+.links a{color:var(--muted);text-decoration:none;margin-left:14px}
+.links a:hover{color:var(--text)}
+.hero,.card{
+  background:rgba(23,27,46,.92);border:1px solid var(--border);
+  border-radius:22px;padding:28px;box-shadow:0 16px 50px rgba(0,0,0,.25)
+}
+.hero h1{margin:.2rem 0 .6rem;font-size:clamp(2rem,6vw,3.5rem)}
+.hero p{color:var(--muted);max-width:700px}
+.badge{
+  display:inline-block;padding:6px 11px;border-radius:999px;
+  background:#202749;color:#bfc8ff;font-size:.9rem
+}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:18px}
+.card h2,.card h3{margin-top:0}
+a.button{
+  display:inline-block;margin-top:12px;padding:11px 16px;border-radius:12px;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  color:#0b1020;text-decoration:none;font-weight:800
+}
+section{margin-top:18px}
+h2{margin-top:0}
+ul{padding-left:1.25rem}
+footer{color:var(--muted);text-align:center;margin-top:28px;font-size:.92rem}
+code{background:#0e1326;padding:.15rem .35rem;border-radius:6px}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+  <div class="brand">Furina Bot</div>
+  <div class="links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+</nav>
+<div class="hero">
+  <span class="badge">Official Legal Pages</span>
+  <h1>Furina Bot</h1>
+  <p>A multi-purpose Discord bot for moderation, automation, utilities, reminders, server management, presence statistics, and entertainment features.</p>
+  <a class="button" href="privacy.html">Read Privacy Policy</a>
+</div>
+<div class="grid">
+  <div class="card">
+    <h2>Privacy Policy</h2>
+    <p>Explains what data the bot processes, why it is used, how long it may be retained, and how users can request deletion.</p>
+    <a href="privacy.html">Open policy →</a>
+  </div>
+  <div class="card">
+    <h2>Terms of Service</h2>
+    <p>Rules for using Furina Bot and important information about availability, responsibility, and acceptable use.</p>
+    <a href="terms.html">Open terms →</a>
+  </div>
+</div>
+<footer>© 2026 Furina Bot. All rights reserved.</footer>
+</div>
+</body>
+</html>
